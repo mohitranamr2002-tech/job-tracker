@@ -12,7 +12,9 @@ public class HealthController {
     public String health() {
         return "Job Tracker is running";
     }
-
-
+    @GetMapping("/mohit")
+     public String mohit(){
+        return "My name is Mohit";
+    }
 
 }
